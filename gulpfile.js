@@ -20,7 +20,7 @@ var sass = require('gulp-sass'),
 //js
 var jshint = require('gulp-jshint'),
     include = require('gulp-include'),
-    //ngAnnotate = require('gulp-ng-annotate'), //for angular apps
+    ngAnnotate = require('gulp-ng-annotate'), //for angular apps
     uglify = require('gulp-uglify');
 
 //utils

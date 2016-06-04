@@ -1,15 +1,7 @@
 var express = require('express');
+var server = new express();
 
-function serve(build, dir, port) {
-
-    var server = new express();
-    
-    server.listen(port, function() {
-        server.use(express.static(__dirname + dir));
-        console.log('Serving ' + build + ' at http://localhost:' + port);
-    });
-
-}
-
-serve('source', '/src', 4000);
-serve('distribution', '/dist', 8000);
+server.listen(8000, function() {
+    server.use(express.static(__dirname + '/dist'));
+    console.log('Serving at http://localhost:8000');
+});
