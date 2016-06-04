@@ -1,0 +1,17 @@
+# OS X meta file for folder options
+.DS_Store
+
+# bower and npm packages
+bower_components
+node_modules
+
+#project specific files ai, psd, pdf
+comps
+
+#files and folders that are deleted and recreated everytime gulp runs
+dist
+src/assets/js
+src/assets/css
+
+#npm error log
+npm-debug.log

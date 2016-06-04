@@ -1,0 +1,17 @@
+{
+  "name": "blogger",
+  "description": "a blogger engine template",
+  "main": "gulpfile.js",
+  "authors": [
+    "Xavier Reyes Ochoa <xareyesochoa@gmail.com> (http://www.xaviro.com)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
